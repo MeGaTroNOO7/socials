@@ -13,7 +13,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #ff4f8b, #dff1ff);
+    background: linear-gradient(to bottom, #dfdfa1, #87ceeb);
 }
 section::before{
     content: '';
@@ -31,14 +31,14 @@ section .color
 }
 section .color:nth-child(1)
 {
-    background: #ff359b;
+    background: #ffff66;
     width: 600px;
-    height: 600px;
+    height: 500px;
     top: -350px;
 }
 section .color:nth-child(2)
 {
-    background: #00d2ff;
+    background: #87ceeb;
     width: 500px;
     height: 500px;
     bottom: -150px;
@@ -46,7 +46,7 @@ section .color:nth-child(2)
 }
 section .color:nth-child(3)
 {
-    background: #fffd87;
+    background: #30a7ec;
     width: 300px;
     height: 300px;
     bottom: 50px;
