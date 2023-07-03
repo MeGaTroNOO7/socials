@@ -15,15 +15,24 @@
         <div class="color"></div>
         <ul>
             <li class="portfolio"><a href=""><i class="bi bi-person-circle"></i></a></li>
-            <li class="gmail"><a href=""><i class="bi bi-envelope"></i></a></li>
+            <li class="gmail"><a href="javascript:void(0);" onclick="showGmailAlert()"><i class="bi bi-envelope"></i></a></li>
             <li class="github"><a href="https://github.com/MeGaTroNOO7"><i class="bi bi-github"></i></a></li>
             <li class="instagram"><a href="https://www.instagram.com/bernard_george_charles/"><i class="bi bi-instagram"></i></a></li>
-            <li class="discord"><a href=""><i class="bi bi-discord"></i></a></li>
+            <li class="discord"><a href="javascript:void(0);" onclick="showDiscordAlert()"><i class="bi bi-discord"></i></a></li>
             <li class="linkedin"><a href="https://www.linkedin.com/in/bernard-george-a7ab67207"><i class="bi bi-linkedin"></i></a></li>
         </ul>
     </section>
 
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script src="main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        function showGmailAlert() {
+            swal('GMAIL:','bernardgeorgecharles007@gmail.com');
+        }
+
+        function showDiscordAlert() {
+            swal('DISCORD ID:','_megatron_007');
+        }
+    </script>
 </body>
 </html>
