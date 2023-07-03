@@ -13,7 +13,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #18e7dd, #e0a35d);
+    background: linear-gradient(to bottom, #2ddfd6, #e0a35d);
 }
 section::before{
     content: '';
@@ -101,3 +101,4 @@ ul li a:hover::before
 {
     transform: skewX(45deg) translateX(-150px);
 }
+
