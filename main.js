@@ -1,8 +1,12 @@
 import swal from 'sweetalert';
 
-swal("Hello world!");
-const discord = document.querySelector('.discord');
-const gmail = document.querySelector('.gmail');
+const discordButton = document.querySelector('.discord');
+const gmailButton = document.querySelector('.gmail');
 
-discord.addEventListener('click', () => swal('MEGATRON#7084'));
-gmail.addEventListener('click', () => swal('bernardgeorgecharles007@gmail.com'));
+discordButton.addEventListener('click', () => {
+  swal('MEGATRON#7084');
+});
+
+gmailButton.addEventListener('click', () => {
+  swal('bernardgeorgecharles007@gmail.com');
+});
