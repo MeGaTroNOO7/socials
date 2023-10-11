@@ -13,7 +13,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #83b8db, #3d4fa1);
+    background: linear-gradient(to bottom, #83b8db, #96a1d3);
 }
 section::before{
     content: '';
