@@ -31,7 +31,7 @@ section .color
 }
 section .color:nth-child(1)
 {
-    background: #f19f40;
+    background: #da8080e3;
     width: 600px;
     height: 500px;
     top: -350px;
